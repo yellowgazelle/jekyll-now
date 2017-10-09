@@ -18,16 +18,24 @@ html {
 }
 
 body {
-	background: $white;
+	background: url("https://images.alphacoders.com/435/thumb-1920-435556.png");
+	background-repeat: repeat;
+  	background-position: top left;
+  	background-attachment: fixed;
+  
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: #3366ff;
+	
 }
 
 .container {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
-  width: 100%;
+  	border-radius: 25px;
+width: 100%;
+background-color: rgba(35 ,50 ,55 , 0.9);
+	border-bottom:3px solid #ffffff;	
 }
 
 h1, h2, h3, h4, h5, h6 {
